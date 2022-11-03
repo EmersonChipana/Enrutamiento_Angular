@@ -1,0 +1,33 @@
+
+<div class="container w-75">
+    <h1 class="text-center">Realiza tu pedido</h1>
+    <form>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Juanito Perez">
+            <label for="floatingInput">Nombre</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="74444445">
+            <label for="floatingInput">CI</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="number" class="form-control" id="floatingInput" placeholder="7985464">
+            <label for="floatingInput">Telefono/Celular</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Correo Electronico</label>
+        </div>
+        <h1 class="text-center">TU PEDIDO</h1>
+        <h2 class="text-center">{{title}}</h2>
+        <div class="container text-center">
+            <img src="{{image}}" alt="" width="300"> 
+        </div>
+
+        <!-- boton verde para subir fomulario bootstrap -->
+        <div class="d-grid gap-2 col-6 mx-auto mt-3">
+            <button class="btn btn-primary" (click)="enviar()" type="button">Enviar</button>
+        </div>
+        
+    </form>
+</div>

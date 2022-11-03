@@ -1,0 +1,6 @@
+/* border for text area */
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: vertical;
+}

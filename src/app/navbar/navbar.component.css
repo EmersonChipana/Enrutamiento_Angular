@@ -1,0 +1,9 @@
+/* hover white for a */
+.navbar a:hover {
+  color: white;
+}
+
+/* mas espacio entre a en el navbar */
+.navbar a {
+  padding: 0 30px;
+}
